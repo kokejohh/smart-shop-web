@@ -24,7 +24,7 @@
 
 <div class="flex justify-center">
 	<div class="flex h-screen w-1/3 flex-col space-y-8 overflow-y-scroll p-8">
-		{#each urlCam as url}
+		<!-- {#each urlCam as url}
 			<button
 				class="relative aspect-video w-full shrink-0 overflow-hidden rounded-xl bg-black shadow-md"
 				onclick={() => (currentCam = url)}
@@ -37,7 +37,7 @@
 					<Camera src={url} />
 				</div>
 			</button>
-		{/each}
+		{/each} -->
 	</div>
 	<div class="flex w-2/3 flex-col items-center space-y-8 p-8">
 		<div
@@ -48,9 +48,11 @@
 				<span class="ml-2 text-white">Loading...</span>
 			</div>
 			<div class="relative z-10 h-full w-full">
-			{#key currentCam}
+				<img src="http://127.0.0.1:8000/" style="width: 100%; border-radius: 10px;">
+				<img src="http://127.0.0.1:8000/1" style="width: 100%; border-radius: 10px;">
+			<!-- {#key currentCam}
 				<Camera src={currentCam} />
-			{/key}
+			{/key} -->
 			</div>
 		</div>
 		<div class="h-64 w-full shrink-0 bg-base-300"></div>

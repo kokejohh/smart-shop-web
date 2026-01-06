@@ -14,6 +14,5 @@
 		</label>
 
 		<button class="btn mt-4 btn-neutral" type="submit">Login</button>
-		<button class="btn mt-1 btn-ghost" type="reset">Reset</button>
 	</form>
 </div>
