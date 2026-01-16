@@ -3,8 +3,9 @@
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import favicon from '$lib/assets/favicon.svg';
 
-	import Header from '../../components/Header.svelte';
-	import Drawer from '../../components/Drawer.svelte';
+	import Header from '../../components/admin/Header.svelte';
+	import Drawer from '../../components/admin/Drawer.svelte';
+
 	let { children } = $props();
 </script>
 

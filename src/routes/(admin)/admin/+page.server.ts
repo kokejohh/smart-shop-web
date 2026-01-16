@@ -12,7 +12,7 @@ function requireLogin() {
     const { locals } = getRequestEvent();
 
     if (!locals.user) {
-        return redirect(302, '/admin/dashboard');
+        // return redirect(302, '/admin/');
     }
 
     return locals.user;

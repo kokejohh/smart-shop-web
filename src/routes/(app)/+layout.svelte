@@ -9,7 +9,9 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-{@render children()}
+<div class="flex justify-center items-cente min-h-screen">
+	{@render children()}
+</div>
 
 <div style="display:none">
 	{#each locales as locale}
